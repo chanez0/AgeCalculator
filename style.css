@@ -1,0 +1,33 @@
+[data-balance]{
+    text-wrap: balance;
+}
+
+
+body {
+    display: flex;
+    text-align: center;
+    background: #f4e7e7;
+    color: #694e4e;
+}
+
+.choix{
+    min-width: 30px;
+    box-shadow: 0 4px 8px #6e5959;
+    box-sizing: content-box;
+    margin: auto;
+    transition: 0.5s;
+    border-radius: 5px;
+    padding: 2%;
+
+
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    font-size: larger;
+}
+
+header

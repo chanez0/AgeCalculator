@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Age Calculator</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="main.js"></script>
+    </head> 
+    <body>
+        <div class="choix">
+            <header>
+                <h1>This is an age calculator that can determine the age or an interval between 2 dates. </h1>
+            </header>
+
+            <div>
+                <label>Date of birth</label><br>
+                <input id="premDate"
+                type="date"
+                value="2000-01-01"/>
+            </div>
+
+            <div>
+                <label>Current date</label><br>
+                <input id="deuDate"
+                type="date"
+                value="2000-01-01"/>
+            </div>
+            <br>
+
+
+            <button type="button"
+             onclick="countDate">
+             Calculate
+            </button>
+
+            <div id="Age"></div>
+
+
+        </div>
+    </body>
+</html>
